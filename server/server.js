@@ -5,7 +5,7 @@ const port = 5000;
 
 // Configurația CORS să permită doar anumite origini
 const corsOptions = {
-  origin: 'https://chitisimarius.com', // Înlocuiește cu domeniul tău
+  origin: 'http://localhost:3000', // Se folosește http pentru localhost
   optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
